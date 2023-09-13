@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Product Cards | With Quick Popup View - Using HTML, CSS & Javascript
+    </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="https://jelsonjay.com/" />
+    <meta name="description" content="My personl portfolio" />
+    <meta name="keywords" content="Jelson Portfolio" />
+    <meta
+      name="description"
+      content="Responsive product cards using HTML, CSS & Javascript"
+    />
+    <meta name="author" content="Jelson J" />
+    <!--==========CND CSS REMIXICONS============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="container__product">
+          <article class="product__card">
+            <h2 class="product__card__title">Louis Vuitton Bag</h2>
+            <span class="product__card__price">£253</span>
+            <a href="#" class="popup__btn">View Product</a>
+            <img src="/src/images/bag-4.png" class="product__img" alt="" />
+          </article>
+          <article class="popup__modal">
+            <div class="popup__card">
+              <a> <i class="close__btn">&times;</i></a>
+              <div class="product__img">
+                <img src="/src/images/bag-4.png" alt="" />
+              </div>
+              <div class="content">
+                <h2>
+                  Louis Vuitton<br />
+                  <span>Women Bags</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti vitae porro quas inventore in eum.
+                </p>
+                <span class="price">£253</span>
+                <a href="#" class="add__cart__btn">Add to card</a>
+                <a href="#" class="add__wish__btn">Add to wishlist</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="container__product">
+          <article class="product__card">
+            <h2 class="product__card__title">Nike</h2>
+            <span class="product__card__price">£97.99</span>
+            <a href="#" class="popup__btn">View Product</a>
+            <img src="/src/images/nike-gray.png" class="product__img" alt="" />
+          </article>
+          <article class="popup__modal">
+            <div class="popup__card">
+              <a> <i class="close__btn">&times;</i></a>
+              <div class="product__img">
+                <img src="/src/images/nike-gray.png" alt="" />
+              </div>
+              <div class="content">
+                <h2>
+                  Nike <br />
+                  <span>Mens</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti vitae porro quas inventore in eum.
+                </p>
+                <span class="price">£97.99</span>
+                <a href="#" class="add__cart__btn">Add to card</a>
+                <a href="#" class="add__wish__btn">Add to wishlist</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="container__product">
+          <article class="product__card">
+            <h2 class="product__card__title">Mackbook 14 inch</h2>
+            <span class="product__card__price">£1653</span>
+            <a href="#" class="popup__btn">View Product</a>
+            <img
+              src="/src/images/macbook-air.png"
+              class="product__img"
+              alt=""
+            />
+          </article>
+          <article class="popup__modal">
+            <div class="popup__card">
+              <a> <i class="close__btn">&times;</i></a>
+              <div class="product__img">
+                <img src="/src/images/macbook-air.png" alt="" />
+              </div>
+              <div class="content">
+                <h2>
+                  Macbook-air 14 inch<br />
+                  <span>Apple</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corrupti vitae porro quas inventore in eum.
+                </p>
+                <span class="price">£253</span>
+                <a href="#" class="add__cart__btn">Add to card</a>
+                <a href="#" class="add__wish__btn">Add to wishlist</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
